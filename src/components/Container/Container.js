@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Container = props => {
-    let addClass = props.addClass;
+    let addclass = props.addclass;
     let classes = '';
-    addClass !== undefined ? classes = classes + ' ' + addClass : addClass = '';
+    addclass !== undefined ? classes = classes + ' ' + addclass : addclass = '';
 
-    <div className={`container${props.fluid ? "-fluid" : ""} ${classes}`} {...props}/>;
+    return <div className={`container${props.fluid ? "-fluid" : ""} ${classes}`} {...props}/>;
 }
 
 export default Container;
