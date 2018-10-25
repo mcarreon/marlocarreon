@@ -12,8 +12,9 @@ import ProjectPage from './pages/ProjectPage';
 import ErrorPage from './pages/ErrorPage';
 
 
-
+  console.log(process.env.PUBLIC_URL);
 class App extends Component {
+  
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>
@@ -21,7 +22,7 @@ class App extends Component {
           <Navbar />
           <Switch>
             <Route exact path="/" component={LandingPage}/>
-            <Route exact part="/projects" component={ProjectPage}/>
+            <Route exact path="/projects" component={ProjectPage}/>
             <Route component={ErrorPage} />
           </Switch>
         </Wrapper>
