@@ -12,23 +12,23 @@ self.__precacheManifest = [
     "url": "/marlocarreon/static/js/runtime~main.d57099d1.js"
   },
   {
-    "revision": "77fcc875fb563d60407d",
-    "url": "/marlocarreon/static/js/main.77fcc875.chunk.js"
+    "revision": "64e6cea393ff71dc3d67",
+    "url": "/marlocarreon/static/js/main.64e6cea3.chunk.js"
   },
   {
     "revision": "e85ac45e78adf7f00874",
     "url": "/marlocarreon/static/js/1.e85ac45e.chunk.js"
   },
   {
-    "revision": "77fcc875fb563d60407d",
-    "url": "/marlocarreon/static/css/main.c9741261.chunk.css"
+    "revision": "64e6cea393ff71dc3d67",
+    "url": "/marlocarreon/static/css/main.f731d632.chunk.css"
   },
   {
     "revision": "e85ac45e78adf7f00874",
     "url": "/marlocarreon/static/css/1.9529182b.chunk.css"
   },
   {
-    "revision": "4d9aa19545eb446a35856aaccf05c95a",
+    "revision": "ef824cbc9418c06f512604ce573a1350",
     "url": "/marlocarreon/index.html"
   }
 ];
