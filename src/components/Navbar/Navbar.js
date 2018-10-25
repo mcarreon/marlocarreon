@@ -9,7 +9,7 @@ const Nav = posed.div({
 });
 
 class Navbar extends Component {
-  state = { isToggled: false };
+  state = { isToggled: true };
 
   render() {
 
