@@ -6,10 +6,29 @@ import Container from '../../components/Container';
 import Col from '../../components/Col';
 import Row from '../../components/Row';
 import Mailto from 'react-protected-mailto';
+import ProjectTable from '../../components/ProjectTable';
+import posed from 'react-pose';
+
+const appearText = posed.div({
+  hidden: { color: "#e2fcea" },
+  visible: { color: "black" }
+});
+
+
 class LandingPage extends Component {
+
+  state = {
+    isVisible: false
+  }
+
+  componentDidMount() {
+    
+  }
 
 
   render () {
+
+    const { isVisible } = this.state;
 
     const name = "Marlo Carreon";
 
@@ -20,15 +39,15 @@ class LandingPage extends Component {
     return (
       <Wrapper>
         <div>  
-          <Container fluid={"true"} style={{"height": "200vh"}} addclass={"p-0 m-0"}>
+          <Container fluid={"true"} style={{"height": "260vh"}} addclass={"p-0 m-0"}>
             <Row addclass="p-0 m-0 landing-page-row">
               <div className="landing-background">
                 <Row addclass={"landing-top p-5 m-0"}> 
                   <Col size="md" col="6" addclass={"pl-5"}>
                     <Container addclass={"landing-header-container"}>
                       <div className="pl-5 pt-3">
-                        <div><h1 className="name">{name}</h1></div>
-                        <div><h2 className="heading">{heading}</h2></div>
+                          <div><appearText pose={isVisible ? 'visible' : 'hidden'}><h1 className="name">{name}</h1></appearText></div>
+                          <div><h2 className="heading">{heading}</h2></div>
                       </div>
                     </Container>
                   </Col>
@@ -44,16 +63,19 @@ class LandingPage extends Component {
                 </Col>
                 </Row> 
               </div>
-            </Row>         
+            </Row>     
+            <Row addclass="p-0 m-0 about-page-row d-flex justify-content-center align-items-center">
+              <div style={{"width": "30%"}} className="pt-2 about-body">
+                <h3 className="text-center pb-2">About</h3>
+                <p className="description">{description}</p>
+              </div>
+            </Row>    
             <div className="landing-bot-container">
-              <Row addclass="p-0 m-0 about-page-row d-flex justify-content-center align-items-center">
-                <div style={{"width": "30%"}} className="pt-2 about-body">
-                  <h3 className="text-center pb-2">About</h3>
-                  <p className="description">{description}</p>
-                </div>
-              </Row>  
-              <Row addclass="p-0 m-0 featured-page-row"></Row>
+              <Row addclass="p-0 m-0 projects-page-row">
+                <ProjectTable />
+              </Row>
             </div>
+              
           </Container>
         <ParticlesContainer params={
           {"particles" : {

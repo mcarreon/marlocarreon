@@ -32,8 +32,8 @@ body {
   transition-duration: .5s;
 }
 
-.landing-contact-container a:hover {
-  color: rgb(194, 198, 248);
+a:hover {
+  color: rgb(255, 91, 255);
   
 }
 
@@ -50,8 +50,13 @@ body {
   line-height: 1.5;
 }
 
-.about-page-row, .featured-page-row {
-  height: 50vh;
+.about-page-row {
+  height: 60vh;
+  background-color: #171915;
+}
+
+.projects-page-row {
+  height: 100vh;
 }
 
 .about-page-row {

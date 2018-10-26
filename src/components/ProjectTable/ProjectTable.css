@@ -1,0 +1,21 @@
+.project-table {
+  background: rgba(241, 255, 241, 0.93);
+}
+
+a {
+  color: #212529;
+  transition-duration: .5s;
+}
+
+a:hover {
+  color: rgb(255, 91, 255);
+  text-decoration: none;
+}
+
+tbody > th {
+  font-size: .5em;
+}
+
+.project-data {
+  font-size: .8em;
+}

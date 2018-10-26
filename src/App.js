@@ -1,8 +1,7 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/react-table/react-table.css'
-import $ from 'jquery';
-import Popper from 'popper.js';
-import 'material-design-icons';
+import 'jquery';
+import 'popper.js';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min';
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
