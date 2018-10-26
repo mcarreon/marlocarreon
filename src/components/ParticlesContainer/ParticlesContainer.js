@@ -4,7 +4,7 @@ import './ParticlesContainer.css';
 
 const ParticlesContainer = props => {
   return (
-    <Particles params={props.params} width={"100%"} height={"100%"}className="particles-canvas"/>
+    <Particles params={props.params} width={"100%"} height={"218vh"}className="particles-canvas"/>
   );
 }
 

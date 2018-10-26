@@ -4,6 +4,7 @@ import Projects from '../../data/projects.json';
 import ReactTable from 'react-table';
 import Moment from 'react-moment';
 import './ProjectTable.css';
+import ParticlesContainer from '../../components/ParticlesContainer';
 
 class ProjectTable extends Component {
   state = {

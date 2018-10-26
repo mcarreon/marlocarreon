@@ -1,0 +1,25 @@
+.storybook {
+  box-shadow: 4px 4px 7px whitesmoke;
+  
+}
+
+.storybook-intro-page {
+  background-color: #5b756300;
+  background-image: url("../../backtree.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.storybook-text {
+  font-size: 1em;
+  letter-spacing: .05em;
+}
+
+.storybook-header {
+  font-size: 2.5em;
+}
+
+.prof-pic {
+  box-shadow: 2px 2px 5px grey;
+  
+}

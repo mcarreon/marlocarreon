@@ -13,6 +13,7 @@ body {
 }
 
 .landing-background {
+  z-index: 1;
   height: 100vh;
   width: 100vw;
   background-image: url("../../background.png");
@@ -46,13 +47,22 @@ a:hover {
   letter-spacing: .07em;
   font-size: 1.3rem;
   width: 90%;
-  color: rgba(0, 0, 0, 0.85);
   line-height: 1.5;
 }
 
 .about-page-row {
-  height: 60vh;
-  background-color: #171915;
+  height: 20vh;
+  width: 100%;
+}
+
+.about-body {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  /* background-color: #171915; */
+  background-image: url("../../aboutsection.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .projects-page-row {
@@ -68,5 +78,8 @@ a:hover {
 
 
 .landing-bot-container {
-  background-image: url("../../skyline.png");
+  height: 100vh;
+  background-image: url("../../backtree.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
