@@ -9,8 +9,8 @@ import Mailto from 'react-protected-mailto';
 import ProjectTable from '../../components/ProjectTable';
 import posed from 'react-pose';
 
-const appearText = posed.div({
-  hidden: { color: "#e2fcea" },
+const Fade = posed.div({
+  closed: { opacity: 0, height: 0 },
   visible: { color: "black" }
 });
 
@@ -46,7 +46,7 @@ class LandingPage extends Component {
                   <Col size="md" col="6" addclass={"pl-5"}>
                     <Container addclass={"landing-header-container"}>
                       <div className="pl-5 pt-3">
-                          <div><appearText pose={isVisible ? 'visible' : 'hidden'}><h1 className="name">{name}</h1></appearText></div>
+                          <div><Fade pose={isVisible ? 'closed' : 'closed'}><h1 className="name">{name}</h1></Fade></div>
                           <div><h2 className="heading">{heading}</h2></div>
                       </div>
                     </Container>
