@@ -19,8 +19,8 @@ class Navbar extends Component {
         <Wrapper className="custom-navbar">
           <div className="text-right" onClick={() => this.setState({isToggled: !isToggled})}><i className="material-icons icon" >menu</i></div>
           <Nav className="navbar-text pt-0" pose={isToggled ? 'open' : 'closed'}>
-            <div className="text-right pr-2"><a>Home</a></div>
-            <div className="text-right pr-2"><a>Projects</a></div>
+            <div className="text-right pr-2"><a href="/">Home</a></div>
+            <div className="text-right pr-2"><a href="/projects">Projects</a></div>
           </Nav>
         </Wrapper>
       

@@ -4,7 +4,6 @@
   right: 40px;
   float: right;
   cursor: pointer;
-  
   z-index: 5;
   
 }
@@ -22,6 +21,7 @@
   font-size: 3em;
 }
 
-li {
-  
+a, a:hover {
+  color: black;
 }
+

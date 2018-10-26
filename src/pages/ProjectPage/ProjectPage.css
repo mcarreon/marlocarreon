@@ -1,0 +1,54 @@
+.project-container {
+  height: 100vh;
+}
+
+tbody > th {
+  font-size: .5em;
+}
+
+.project-data {
+  font-size: .8em;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+.w-12 {
+  width: 12%;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-5 {
+  width: 5%;
+}
+
+.project-desc-col {
+  max-width: 626px;
+}
+
+.project-link {
+  padding-top: 20px;
+}
+
+.project-area-desc {
+  font-size: .8em;
+}
+
+.list-group-item {
+  line-height: 2.5;
+}
+
+a {
+  color: #212529;
+  
+}
+
+a:hover {
+  color: rgb(255, 91, 255);
+  text-decoration: none;
+}
+

@@ -1,4 +1,5 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/react-table/react-table.css'
 import $ from 'jquery';
 import Popper from 'popper.js';
 import 'material-design-icons';
