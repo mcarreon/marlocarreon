@@ -37,7 +37,7 @@ class ProjectPage extends Component {
       }, {
         Header: "Link",
         id: "project_link",
-        accessor: p => p.project_link,
+        accessor: p => p.project_host,
         Cell: props => <span className="project-link"><a href={props.value} target="__blank">Link</a></span>,
         
       }, {

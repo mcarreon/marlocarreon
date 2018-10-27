@@ -19,7 +19,6 @@ class App extends Component {
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <Wrapper>
-          <Navbar />
           <Switch>
             <Route exact path="/" component={LandingPage}/>
             <Route exact path="/projects" component={ProjectPage}/>

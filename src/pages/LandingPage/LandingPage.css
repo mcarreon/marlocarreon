@@ -67,6 +67,8 @@ a:hover {
 
 .projects-page-row {
   height: 100vh;
+  position: relative;
+  
 }
 
 .about-page-row {
@@ -79,6 +81,8 @@ a:hover {
 
 .landing-bot-container {
   height: 100vh;
+  position: relative;
+  background-color: white;
   background-image: url("../../backtree.png");
   background-repeat: no-repeat;
   background-size: cover;
