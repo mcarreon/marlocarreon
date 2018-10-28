@@ -9,9 +9,9 @@
   
 }
 
-.storybook > div > div > div > div> div {
+/* .storybook > div > div > div > div> div {
   height: 100%;
-}
+} */
 
 .storybook, .storybook::before, .storybook::after {
   content: "";
@@ -21,6 +21,14 @@
   border-right: 1px solid rgba(128, 128, 128, 0.267);
   border-bottom: 1px solid rgba(128, 128, 128, 0.267);
   border-top: 1px solid rgba(128, 128, 128, 0.267);
+}
+
+.storybook-font-weight {
+  font-weight: lighter;
+}
+
+.subheader {
+  color: rgba(0, 0, 0, 0.85);
 }
 
 .storybook::before {
@@ -44,19 +52,15 @@
   background-color: none;
 }
 
-.toc-button-visible {
-  position: relative;
-  opacity: 100%;
-  z-index: 3;
+.toc-button {
+  transition-duration: .5s;
 }
 
-.toc {
+.toc-button:hover {
+  color: rgb(255, 91, 255);
 }
 
-.toc-button-invisible {
-  position: relative;
-  z-index: 0;
-}
+
 
 .proj-pic {
   width: 100%;

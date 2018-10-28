@@ -4,6 +4,7 @@ body {
   font-family: 'Libre Baskerville', serif;
   background-color: #e2fcea;
   color: black;
+  letter-spacing: .07em;
 }
 
 .landing-top {
@@ -27,24 +28,27 @@ body {
 }
 
 .landing-contact-container, .landing-contact-container a {
-  letter-spacing: .07em;
+  
   height: 100%;
   color: #e2fcead2;
   transition-duration: .5s;
 }
 
+a {
+  color: black;
+}
+
 a:hover {
   color: rgb(255, 91, 255);
-  
 }
 
 .name {
   font-size: 3.5rem;
-  letter-spacing: .07em;
+  
 }
 
 .heading {
-  letter-spacing: .07em;
+  
   font-size: 1.3rem;
   width: 90%;
   line-height: 1.5;
