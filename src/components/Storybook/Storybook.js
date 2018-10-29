@@ -1,16 +1,11 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import Container from '../../components/Container';
 import Col from '../../components/Col';
-import posed from 'react-pose';
 import FlipPage from 'react-flip-page';
 import './Storybook.css';
 import Projects from '../../data/projects.json';
-import $ from 'jquery';
 import { GoArrowRight, GoArrowLeft, GoBook } from 'react-icons/go'; 
 import Moment from 'react-moment';
-import BookPages from '../../components/BookPages';
-import TextFit from 'react-textfit';
-import Fade from 'react-reveal/Fade';
 
 class Storybook extends Component {
   

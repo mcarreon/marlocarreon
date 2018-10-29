@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import './ProjectPage.css';
 import Container from '../../components/Container';
-import Wrapper from '../../components/Wrapper';
-import Col from '../../components/Col';
-import Row from '../../components/Row';
 import Projects from '../../data/projects.json';
 import ReactTable from 'react-table';
 import Moment from 'react-moment';
@@ -61,7 +58,7 @@ class ProjectPage extends Component {
       headerClassName: 'pt-3 pb-2'
     }];
 
-    const desc = "These are 16 of my most recent projects. To visit them or their repos, click the links under the website or repo columns.";
+    
 
 
     return (

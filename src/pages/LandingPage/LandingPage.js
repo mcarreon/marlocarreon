@@ -6,9 +6,7 @@ import Container from '../../components/Container';
 import Col from '../../components/Col';
 import Row from '../../components/Row';
 import Mailto from 'react-protected-mailto';
-import FadeIn from '../../components/FadeIn';
 import Storybook from '../../components/Storybook';
-import posed from 'react-pose';
 import TextFit from 'react-textfit';
 import Fade from 'react-reveal/Fade';
 class LandingPage extends Component {
