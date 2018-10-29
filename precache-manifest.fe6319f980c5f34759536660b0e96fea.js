@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/marlocarreon/static/js/runtime~main.d57099d1.js"
   },
   {
-    "revision": "ca51b322ca9a8aacdd0da1b8f7e77eb4",
-    "url": "/marlocarreon/static/media/aboutsection.ca51b322.png"
-  },
-  {
     "revision": "37c62bb583c3c240265aefc77e11dae6",
     "url": "/marlocarreon/static/media/background.37c62bb5.png"
+  },
+  {
+    "revision": "ca51b322ca9a8aacdd0da1b8f7e77eb4",
+    "url": "/marlocarreon/static/media/aboutsection.ca51b322.png"
   },
   {
     "revision": "c96276894497d2f01fbb1069049c14b6",
