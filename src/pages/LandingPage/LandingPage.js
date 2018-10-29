@@ -33,7 +33,7 @@ class LandingPage extends Component {
                 <Row addclass={"landing-top p-5 m-0"}> 
                   <Col size="md" col="6" addclass={"pl-5"}>
                     <Container addclass={"landing-header-container"}>
-                      <div className="pl-3 pt-3 title-container">
+                      <div className="pl-5 pt-3 title-container">
                           <Fade clear><h1 className="name">{name}</h1></Fade>
                           <Fade clear><h2 className="heading">{heading}</h2></Fade>
                       </div>
