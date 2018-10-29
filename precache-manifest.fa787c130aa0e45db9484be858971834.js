@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/marlocarreon/static/media/bootstrapportfolio.fb73bfa7.png"
   },
   {
-    "revision": "5f82d1273ce70d9fd5a9",
-    "url": "/marlocarreon/static/css/main.b2f95bee.chunk.css"
+    "revision": "e4275e1eecff3782fd46",
+    "url": "/marlocarreon/static/css/main.c0daebe3.chunk.css"
   },
   {
     "revision": "1d5d6e2fb39a07a140f644725833a0bc",
     "url": "/marlocarreon/static/media/vancool.1d5d6e2f.png"
   },
   {
-    "revision": "bfe178c681da22e5aa89",
-    "url": "/marlocarreon/static/js/1.bfe178c6.chunk.js"
+    "revision": "ede16af78e29852bc472",
+    "url": "/marlocarreon/static/js/1.ede16af7.chunk.js"
   },
   {
     "revision": "d57099d17f0c4c211c41",
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/marlocarreon/static/media/background.37c62bb5.png"
   },
   {
-    "revision": "ca51b322ca9a8aacdd0da1b8f7e77eb4",
-    "url": "/marlocarreon/static/media/aboutsection.ca51b322.png"
-  },
-  {
     "revision": "c96276894497d2f01fbb1069049c14b6",
     "url": "/marlocarreon/static/media/backtree.c9627689.png"
+  },
+  {
+    "revision": "ca51b322ca9a8aacdd0da1b8f7e77eb4",
+    "url": "/marlocarreon/static/media/aboutsection.ca51b322.png"
   },
   {
     "revision": "99443ced0e04983b6768cd8c445183e5",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/marlocarreon/static/media/beerdetectives.761ea91b.png"
   },
   {
-    "revision": "5f82d1273ce70d9fd5a9",
-    "url": "/marlocarreon/static/js/main.5f82d127.chunk.js"
+    "revision": "e4275e1eecff3782fd46",
+    "url": "/marlocarreon/static/js/main.e4275e1e.chunk.js"
   },
   {
     "revision": "6ace41a9300cfe67acec6172cdafeab1",
@@ -72,11 +72,11 @@ self.__precacheManifest = [
     "url": "/marlocarreon/static/media/sequelizeburger.967912e9.png"
   },
   {
-    "revision": "bfe178c681da22e5aa89",
+    "revision": "ede16af78e29852bc472",
     "url": "/marlocarreon/static/css/1.c3efe92d.chunk.css"
   },
   {
-    "revision": "ca86388d87b54b3c8bc583c109ac9327",
+    "revision": "5384deecf1376dc5473e286b044d6ab3",
     "url": "/marlocarreon/index.html"
   }
 ];
