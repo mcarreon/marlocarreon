@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/marlocarreon/static/media/bootstrapportfolio.fb73bfa7.png"
   },
   {
-    "revision": "3cf38d7cf3d32f550b25",
-    "url": "/marlocarreon/static/css/main.37265ca7.chunk.css"
+    "revision": "318518dff075ef903db3",
+    "url": "/marlocarreon/static/css/main.63e60844.chunk.css"
   },
   {
     "revision": "1d5d6e2fb39a07a140f644725833a0bc",
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/marlocarreon/static/js/runtime~main.d57099d1.js"
   },
   {
-    "revision": "37c62bb583c3c240265aefc77e11dae6",
-    "url": "/marlocarreon/static/media/background.37c62bb5.png"
-  },
-  {
     "revision": "ca51b322ca9a8aacdd0da1b8f7e77eb4",
     "url": "/marlocarreon/static/media/aboutsection.ca51b322.png"
+  },
+  {
+    "revision": "37c62bb583c3c240265aefc77e11dae6",
+    "url": "/marlocarreon/static/media/background.37c62bb5.png"
   },
   {
     "revision": "c96276894497d2f01fbb1069049c14b6",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/marlocarreon/static/media/beerdetectives.761ea91b.png"
   },
   {
-    "revision": "3cf38d7cf3d32f550b25",
-    "url": "/marlocarreon/static/js/main.3cf38d7c.chunk.js"
+    "revision": "318518dff075ef903db3",
+    "url": "/marlocarreon/static/js/main.318518df.chunk.js"
   },
   {
     "revision": "6ace41a9300cfe67acec6172cdafeab1",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/marlocarreon/static/css/1.133e832f.chunk.css"
   },
   {
-    "revision": "5a6730555d464b9373fa655a034f98c6",
+    "revision": "1a174b664abea2f9d139489e377b9b2f",
     "url": "/marlocarreon/index.html"
   }
 ];
