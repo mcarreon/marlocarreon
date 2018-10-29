@@ -117,6 +117,7 @@ article {
 
   .storybook-project-desc {
     font-size: .75em;
+    text-overflow: ellipsis;
   }
 
   .storybook-project-links {

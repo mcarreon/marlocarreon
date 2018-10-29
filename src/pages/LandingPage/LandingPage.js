@@ -7,7 +7,6 @@ import Col from '../../components/Col';
 import Row from '../../components/Row';
 import Mailto from 'react-protected-mailto';
 import Storybook from '../../components/Storybook';
-import TextFit from 'react-textfit';
 import Fade from 'react-reveal/Fade';
 class LandingPage extends Component {
 
@@ -34,19 +33,19 @@ class LandingPage extends Component {
                 <Row addclass={"landing-top p-5 m-0"}> 
                   <Col size="md" col="6" addclass={"pl-5"}>
                     <Container addclass={"landing-header-container"}>
-                      <div className="pl-5 pt-3">
-                          <TextFit mode="multi"><Fade clear><h1 className="name">{name}</h1></Fade></TextFit>
-                          <TextFit mode="multi"><Fade clear><h2 className="heading">{heading}</h2></Fade></TextFit>
+                      <div className="pl-3 pt-3 title-container">
+                          <Fade clear><h1 className="name">{name}</h1></Fade>
+                          <Fade clear><h2 className="heading">{heading}</h2></Fade>
                       </div>
                     </Container>
                   </Col>
                   <Col size="md" col="4" addclass={"offset-md-2"}>
                   <Container addclass="landing-contact-container d-flex justify-content-center align-items-end ml-5">
-                  <Fade clear><div className="landing-contact pb-5">
+                  <Fade clear><div className="pl-4 landing-contact pb-5">
                       <h2 className="pb-2 ">Contact Me</h2>
-                      <div className="pb-2"><Mailto email="marloadriancarreon@gmail.com" headers={{subject:"Hello! How are you?"}}/></div>
-                      <div className="pb-2 "><a href="https://github.com/mcarreon" target="__blank">GitHub</a></div>
-                      <div className="pb-2"><a href="https://www.linkedin.com/in/carryon" target="__blank">LinkedIn</a></div>
+                      <div className="pb-2 email"><Mailto className="email" email="marloadriancarreon@gmail.com" headers={{subject:"Hello! How are you?"}}/></div>
+                      <div className="pb-2 github"><a href="https://github.com/mcarreon" target="__blank">GitHub</a></div>
+                      <div className="pb-2 linkedin"><a href="https://www.linkedin.com/in/carryon" target="__blank">LinkedIn</a></div>
                     </div></Fade>
                   </Container>
                 </Col>
