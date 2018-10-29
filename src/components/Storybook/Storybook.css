@@ -122,4 +122,8 @@ article {
   .storybook-project-links {
     font-size: .9em;
   }
+
+  .storybook-header {
+    font-size: 1.8em;
+  }
 }
