@@ -115,8 +115,12 @@ article {
     font-size: 1em;
   }
 
+  .storybook-font-light {
+    font-size: .9em;
+  }
+
   .storybook-project-desc {
-    font-size: .75em;
+    font-size: .65em;
     text-overflow: ellipsis;
   }
 
@@ -125,6 +129,6 @@ article {
   }
 
   .storybook-header {
-    font-size: 1.8em;
+    font-size: 1.7em;
   }
 }
