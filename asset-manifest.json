@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.f3414326.chunk.css",
-  "main.js": "/static/js/main.067d28f7.chunk.js",
-  "main.js.map": "/static/js/main.067d28f7.chunk.js.map",
+  "main.css": "/static/css/main.c6d27cf3.chunk.css",
+  "main.js": "/static/js/main.79838cfb.chunk.js",
+  "main.js.map": "/static/js/main.79838cfb.chunk.js.map",
   "static/css/1.133e832f.chunk.css": "/static/css/1.133e832f.chunk.css",
   "static/js/1.c04b1fe1.chunk.js": "/static/js/1.c04b1fe1.chunk.js",
   "static/js/1.c04b1fe1.chunk.js.map": "/static/js/1.c04b1fe1.chunk.js.map",
@@ -20,9 +20,9 @@
   "static/media/portfoliov2.png": "/static/media/portfoliov2.9b351acd.png",
   "static/media/portfoliov3.png": "/static/media/portfoliov3.9093e48f.png",
   "static/media/sequelizeburger.png": "/static/media/sequelizeburger.967912e9.png",
-  "static/css/main.f3414326.chunk.css.map": "/static/css/main.f3414326.chunk.css.map",
+  "static/css/main.c6d27cf3.chunk.css.map": "/static/css/main.c6d27cf3.chunk.css.map",
   "static/css/1.133e832f.chunk.css.map": "/static/css/1.133e832f.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.4799c20c70aaccad237eb7569385bc75.js": "/precache-manifest.4799c20c70aaccad237eb7569385bc75.js",
+  "precache-manifest.d028b43f2437c874ff3cec7fde8c14f6.js": "/precache-manifest.d028b43f2437c874ff3cec7fde8c14f6.js",
   "service-worker.js": "/service-worker.js"
 }
