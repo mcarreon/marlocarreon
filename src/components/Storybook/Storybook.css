@@ -5,8 +5,12 @@
   z-index: 1;
 }
 
-.page-forward {
-  
+.page-forward, .page-back, .page-contents {
+  transition-duration: .5s;
+}
+
+.page-forward:hover, .page-back:hover, .page-contents:hover {
+  color: rgba(67, 67, 179, 0.89);
 }
 
 /* .storybook > div > div > div > div> div {
@@ -100,4 +104,22 @@ article {
   background-color: white;
   box-shadow: 1px 1px 3px white;
   border: 2px solid gray;
+}
+
+@media only screen and (max-width: 1024px) {
+  .storybook-text {
+    font-size: .75em;
+  }
+
+  .toc-button {
+    font-size: 1em;
+  }
+
+  .storybook-project-desc {
+    font-size: .75em;
+  }
+
+  .storybook-project-links {
+    font-size: .9em;
+  }
 }

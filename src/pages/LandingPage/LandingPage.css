@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 
+
+
+
 body {
   font-family: 'Libre Baskerville', serif;
   background-color: #e2fcea;
@@ -20,7 +23,6 @@ body {
   background-image: url("../../background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
 .landing-header-container {
@@ -44,7 +46,7 @@ a:hover {
 
 .name {
   font-size: 3.5rem;
-  
+  font-weight: 575;
 }
 
 .heading {

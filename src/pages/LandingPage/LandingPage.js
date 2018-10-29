@@ -7,10 +7,10 @@ import Col from '../../components/Col';
 import Row from '../../components/Row';
 import Mailto from 'react-protected-mailto';
 import FadeIn from '../../components/FadeIn';
-import ProjectTable from '../../components/ProjectTable';
 import Storybook from '../../components/Storybook';
 import posed from 'react-pose';
-
+import TextFit from 'react-textfit';
+import Fade from 'react-reveal/Fade';
 class LandingPage extends Component {
 
 
@@ -37,19 +37,19 @@ class LandingPage extends Component {
                   <Col size="md" col="6" addclass={"pl-5"}>
                     <Container addclass={"landing-header-container"}>
                       <div className="pl-5 pt-3">
-                          <div><FadeIn><h1 className="name">{name}</h1></FadeIn></div>
-                          <div><FadeIn fadetype={"header"}><h2 className="heading">{heading}</h2></FadeIn></div>
+                          <TextFit mode="multi"><Fade clear><h1 className="name">{name}</h1></Fade></TextFit>
+                          <TextFit mode="multi"><Fade clear><h2 className="heading">{heading}</h2></Fade></TextFit>
                       </div>
                     </Container>
                   </Col>
                   <Col size="md" col="4" addclass={"offset-md-2"}>
                   <Container addclass="landing-contact-container d-flex justify-content-center align-items-end ml-5">
-                  <FadeIn fadetype={"contact"}><div className="landing-contact pb-5">
+                  <Fade clear><div className="landing-contact pb-5">
                       <h2 className="pb-2 ">Contact Me</h2>
                       <div className="pb-2"><Mailto email="marloadriancarreon@gmail.com" headers={{subject:"Hello! How are you?"}}/></div>
                       <div className="pb-2 "><a href="https://github.com/mcarreon" target="__blank">GitHub</a></div>
                       <div className="pb-2"><a href="https://www.linkedin.com/in/carryon" target="__blank">LinkedIn</a></div>
-                    </div></FadeIn>
+                    </div></Fade>
                   </Container>
                 </Col>
                 </Row> 

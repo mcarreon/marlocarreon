@@ -1623,7 +1623,7 @@ babel-register@^6.26.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.15"
 
-babel-runtime@^6.22.0, babel-runtime@^6.26.0:
+babel-runtime@^6.22.0, babel-runtime@^6.26.0, babel-runtime@^6.6.1:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
@@ -7673,7 +7673,7 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.0.tgz#a37d732f4271b4ab1ad070d35508e8290788ffaa"
   integrity sha512-MtEC1TqN0EU5nephaJ4rAtThHtC86dNN9qCuEhtshvpVBkAW5ZO7BASN9REnF9eoXGcRub+pFuKEpOHE+HbEMw==
 
-process@^0.11.10:
+process@^0.11.10, process@^0.11.9:
   version "0.11.10"
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
@@ -7703,7 +7703,7 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@^15.6.1, prop-types@^15.6.2:
+prop-types@^15.5.10, prop-types@^15.6.1, prop-types@^15.6.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   integrity sha512-3pboPvLiWD7dkI3qf3KbUe6hKFKa52w+AE0VCqECtf+QHAKgOL37tTaNCnuX1nAAQ4ZhyP+kYVKf8rLmJ/feDQ==
@@ -7946,7 +7946,7 @@ react-error-overlay@^5.0.5:
 
 react-flip-page@mcarreon/react-flip-page#marlo:
   version "1.2.0"
-  resolved "https://codeload.github.com/mcarreon/react-flip-page/tar.gz/f91a1205c8c47d07274273b46ab3aff7056628df"
+  resolved "https://codeload.github.com/mcarreon/react-flip-page/tar.gz/64d576fae4f4c7479afd7fb4e41f7c3d1371d864"
   dependencies:
     babel-core "^7.0.0-bridge.0"
     prop-types "^15.6.2"
@@ -7991,6 +7991,13 @@ react-protected-mailto@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/react-protected-mailto/-/react-protected-mailto-1.0.3.tgz#2017fc8f8ad1177d65c47071cf7117fe05e7cec6"
   integrity sha512-Lv/o4+FCDDYvEhxzb0XaXuhwKu8ICqanZhxJwMBrUqLNDpbZqOGMZrFtn47iey012K0b/AkEzzFmqLkDvdYlWA==
+
+react-reveal@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/react-reveal/-/react-reveal-1.2.2.tgz#f47fbc44debc4c185ae2163a215a9e822c7adfef"
+  integrity sha512-JCv3fAoU6Z+Lcd8U48bwzm4pMZ79qsedSXYwpwt6lJNtj/v5nKJYZZbw3yhaQPPgYePo3Y0NOCoYOq/jcsisuw==
+  dependencies:
+    prop-types "^15.5.10"
 
 react-router-dom@^4.3.1:
   version "4.3.1"
@@ -8077,6 +8084,21 @@ react-table@^6.8.6:
   integrity sha1-oK2LSDkxkFLVvvwBJgP7Fh5S7eM=
   dependencies:
     classnames "^2.2.5"
+
+react-textfit@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-textfit/-/react-textfit-1.1.0.tgz#088855580f2e7aad269efc81b734bf636877d0e1"
+  integrity sha512-iznFbj7fCizuo3Xof9iv57I8GZFiYp8vUFj+4qihHJZpzNwxWad7JZu7ALTAnwaiq/H0p60g8G4ifeEJYmfJuw==
+  dependencies:
+    process "^0.11.9"
+    prop-types "^15.5.10"
+
+react-window-size@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/react-window-size/-/react-window-size-1.2.2.tgz#4fd71ba91c512550cf8a4275fadd02480bcdbb14"
+  integrity sha512-eJ906OEbNtEJHXSfZvqyKtrK4+duCHe6b2dECod1ZToXQzab9tgAJZS8x4F/eItYbg4HFp5BgDBtTJ75dMv/MA==
+  dependencies:
+    babel-runtime "^6.6.1"
 
 react@^16.4.1:
   version "16.6.0"

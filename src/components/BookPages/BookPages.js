@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import Col from '../../components/Col';
 import { GoArrowRight, GoArrowLeft, GoBook } from 'react-icons/go'; 
+import textfit from 'react-textfit'
 
 class BookPages extends Component {
 
