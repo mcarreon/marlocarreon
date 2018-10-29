@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/marlocarreon/static/media/bootstrapportfolio.fb73bfa7.png"
   },
   {
-    "revision": "318518dff075ef903db3",
-    "url": "/marlocarreon/static/css/main.63e60844.chunk.css"
+    "revision": "feeef3e53adddadaf3f2",
+    "url": "/marlocarreon/static/css/main.53d00877.chunk.css"
   },
   {
     "revision": "1d5d6e2fb39a07a140f644725833a0bc",
     "url": "/marlocarreon/static/media/vancool.1d5d6e2f.png"
   },
   {
-    "revision": "09e9ce67fbf65cc2ed80",
-    "url": "/marlocarreon/static/js/1.09e9ce67.chunk.js"
+    "revision": "c04b1fe1f444c608eb4f",
+    "url": "/marlocarreon/static/js/1.c04b1fe1.chunk.js"
   },
   {
     "revision": "d57099d17f0c4c211c41",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/marlocarreon/static/media/beerdetectives.761ea91b.png"
   },
   {
-    "revision": "318518dff075ef903db3",
-    "url": "/marlocarreon/static/js/main.318518df.chunk.js"
+    "revision": "feeef3e53adddadaf3f2",
+    "url": "/marlocarreon/static/js/main.feeef3e5.chunk.js"
   },
   {
     "revision": "6ace41a9300cfe67acec6172cdafeab1",
@@ -72,11 +72,11 @@ self.__precacheManifest = [
     "url": "/marlocarreon/static/media/sequelizeburger.967912e9.png"
   },
   {
-    "revision": "09e9ce67fbf65cc2ed80",
+    "revision": "c04b1fe1f444c608eb4f",
     "url": "/marlocarreon/static/css/1.133e832f.chunk.css"
   },
   {
-    "revision": "1a174b664abea2f9d139489e377b9b2f",
+    "revision": "035ff4813eee75f01b12c594ada161a4",
     "url": "/marlocarreon/index.html"
   }
 ];
