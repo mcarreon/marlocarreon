@@ -1,0 +1,20 @@
+.mobile-container {
+  height: 100vh;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.message {
+  z-index: 1;
+  background-color: white;
+  border: 2px solid gray;
+  box-shadow: 1px 1px 3px white;
+}
+
+.particles-canvas {
+  z-index: -1;
+}
