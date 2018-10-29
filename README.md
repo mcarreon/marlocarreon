@@ -10,6 +10,8 @@ Below you will find some information on how to perform common tasks.
 
 - [ ] test in all browsers
 
+- [ ] create page tab icon
+
 ### Current Issues
 
 - [ ] navigation arrows in mozilla
