@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/bootstrapportfolio.fb73bfa7.png"
   },
   {
-    "revision": "a215b0c30e116bcb5e9b",
-    "url": "/static/css/main.0e7fcf4e.chunk.css"
+    "revision": "4cf6b70d020f53501f79",
+    "url": "/static/css/main.74b262b5.chunk.css"
   },
   {
     "revision": "1d5d6e2fb39a07a140f644725833a0bc",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/static/media/beerdetectives.761ea91b.png"
   },
   {
-    "revision": "a215b0c30e116bcb5e9b",
-    "url": "/static/js/main.a215b0c3.chunk.js"
+    "revision": "4cf6b70d020f53501f79",
+    "url": "/static/js/main.4cf6b70d.chunk.js"
   },
   {
     "revision": "6ace41a9300cfe67acec6172cdafeab1",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/static/css/1.133e832f.chunk.css"
   },
   {
-    "revision": "aabce2e92fa95f5b971ccf3ce8d000a7",
+    "revision": "c31b041ab684e4c1f6d8629a1573779f",
     "url": "/index.html"
   }
 ];
