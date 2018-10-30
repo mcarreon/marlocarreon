@@ -129,6 +129,7 @@ article {
   .storybook-project-desc {
     font-size: .8em;
     text-overflow: ellipsis;
+    letter-spacing: normal;
   }
 
   .toc, .storybook-header {
@@ -136,12 +137,15 @@ article {
   }
 
   .subheader {
-    font-size: .8em;
+    font-size: .7em;
   }
 
   .toc-button {
     font-size: 1.2em;
   }
+
+  
+  
 }
 
 @media only screen and (max-width: 1024px) {
@@ -164,5 +168,15 @@ article {
 
   .storybook-header {
     font-size: 1.3em;
+  }
+
+  
+}
+
+@media only screen and (max-height: 728px) {
+  .prof-pic {
+    padding: 1px!important;
+    width: auto;
+    max-height: 100%;
   }
 }

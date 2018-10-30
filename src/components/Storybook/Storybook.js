@@ -41,14 +41,14 @@ class Storybook extends Component {
     let storybook = (<FlipPage flipOnTouchZone={0} disableSwipe={true} flipOnTouch={true} loopForever={false} animationDuration={650} orientation={'horizontal'} uncutPages={true} threshold={0} maxAngle={25} responsive={true} className="storybook h-75" ref={(component) => { this.flipPage = component }}> 
       <article className="p-5 d-flex h-100 flex-row storybook-intro-page">
         <Col col="6" addclass="pr-5 border-right h-100">
-          <div className="d-flex justify-content-center align-items-center h-100">
+          <div className="d-flex justify-content-center align-items-center h-100 m-3">
             <img src={require('../../data/profpic.jpg')} alt="" className="prof-pic p-3"/>
           </div>
         </Col>
         <Col col="6" addclass="pl-5 h-100 pb-5">
           <div><GoArrowRight size="3rem" className="page-forward float-right" onClick={() => { this.flipPage.gotoNextPage() }}/></div>
             <div className="flex-column justify-content-center d-flex h-100">
-              <h4 className="pb-4 storybook-header">About</h4>
+              <h4 className="pb-1 storybook-header">About</h4>
               <p className="storybook-text">{description}</p>
             </div>
           <div><GoBook size="3rem" className="page-contents float-right" onClick={() => {this.flipPage.gotoPage(1)}}/></div>
