@@ -5,6 +5,8 @@
   z-index: 1;
 }
 
+
+
 .page-forward, .page-back, .page-contents {
   transition-duration: .5s;
 }
@@ -64,7 +66,9 @@
   color: rgb(255, 91, 255);
 }
 
-
+a {
+  transition-duration: .5s;
+}
 
 .proj-pic {
   width: 100%;
@@ -97,13 +101,47 @@ article {
 }
 
 .storybook-header {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .prof-pic {
   background-color: white;
   box-shadow: 1px 1px 3px white;
   border: 2px solid gray;
+}
+
+.page-back {
+  position: absolute; 
+  left: 0;
+}
+
+.page-forward {
+  position: absolute;
+  right: 0;
+}
+
+@media only screen and (max-width: 1440px) and (max-height: 900px) {
+
+  .storybook-font-light, .storybook-project-links, .storybook-text {
+    font-size: .9em;
+  }
+
+  .storybook-project-desc {
+    font-size: .8em;
+    text-overflow: ellipsis;
+  }
+
+  .toc, .storybook-header {
+    font-size: 1.7em;
+  }
+
+  .subheader {
+    font-size: .8em;
+  }
+
+  .toc-button {
+    font-size: 1.2em;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -115,20 +153,16 @@ article {
     font-size: 1em;
   }
 
-  .storybook-font-light {
-    font-size: .9em;
+  .storybook-font-light, .storybook-project-links {
+    font-size: .8em;
   }
 
   .storybook-project-desc {
-    font-size: .65em;
+    font-size: .7em;
     text-overflow: ellipsis;
   }
 
-  .storybook-project-links {
-    font-size: .9em;
-  }
-
   .storybook-header {
-    font-size: 1.7em;
+    font-size: 1.3em;
   }
 }

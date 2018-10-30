@@ -34,7 +34,7 @@ class Storybook extends Component {
 
     const { projects } = this.state;
 
-    const description = "Hi, I'm Marlo. I was raised an avid gamer thanks to my father, and computers have stuck with me since. Some of my other interests include full-stack pancakes, home cooking, Reddit, foreign beers, making music, and snowboarding. Someday, I would like to program my own video game; but for now I'll keep cooking these stacks.";
+    const description = "Hi, I'm Marlo. I was raised an avid gamer thanks to my father, and (hopefully) a good cook thanks to my mother. Some of my other interests include full-stack pancakes, home cooking, Reddit, foreign beers, making music, and snowboarding. Someday, I would like to program my own video game; but for now I'll keep cooking these stacks.";
 
     const instructions = "This is a flipbook containing all of my projects. To flip the pages, click the left and right arrows on the sides of the page. Book in the bottom right leads to the table of contents.";
 
@@ -50,18 +50,20 @@ class Storybook extends Component {
             <div className="flex-column justify-content-center d-flex h-100">
               <h4 className="pb-4 storybook-header">About</h4>
               <p className="storybook-text">{description}</p>
-              <p className="storybook-text">{instructions}</p>
             </div>
           <div><GoBook size="3rem" className="page-contents float-right" onClick={() => {this.flipPage.gotoPage(1)}}/></div>
         </Col>
       </article>
       <article className="p-5 d-flex h-100 flex-row storybook-intro-page">
         <Col col="6" addclass="border-right h-100">
-          <div><GoArrowLeft size="3rem" className="page-back float-left" onClick={() => {this.flipPage.gotoPreviousPage()}}/></div>
+          <div><GoArrowLeft size="3rem" className="page-back float-left instructions-left" onClick={() => {this.flipPage.gotoPreviousPage()}}/></div>
+          <div className="h-100 d-flex justify-content-center align-items-center float-none instructions">
+            <p className="storybook-text w-75">{instructions}</p>
+          </div>
         </Col>
         <Col col="6" addclass="pl-5 pb-5 h-100">
           <div><GoArrowRight size="3rem" className="page-forward float-right" onClick={() => {this.flipPage.gotoNextPage()}}/></div>
-          <div className="d-flex flex-column justify-content-center h-100">
+          <div className="d-flex flex-column justify-content-center h-100 pt-5">
             <h4 className="pb-0 storybook-header toc">Table Of Contents</h4>
             <p className="subheader pb-3">Skip to projects with these links.</p>
             {projects.map((project, i) => {
@@ -83,7 +85,7 @@ class Storybook extends Component {
         </Col>
         <Col col="6" addclass="pl-5 pb-5 h-100">
           <div><GoArrowRight size="3rem" className="page-forward float-right" onClick={() => {this.flipPage.gotoNextPage()}}/></div>
-          <div className="d-flex flex-column justify-content-center h-100">
+          <div className="d-flex flex-column justify-content-center h-100 pt-5">
             <h4 className="storybook-header">{projects[0].project_name}</h4>
             <h5><Moment format="YYYY/DD/MM">{projects[0].project_creation_date}</Moment></h5>
             <h5 className="storybook-font-light">{projects[0].project_type}</h5>
@@ -103,7 +105,7 @@ class Storybook extends Component {
         </Col>
         <Col col="6" addclass="pl-5 pb-5 h-100">
           <div><GoArrowRight size="3rem" className="page-forward float-right" onClick={() => {this.flipPage.gotoNextPage()}}/></div>
-          <div className="d-flex flex-column justify-content-center h-100">
+          <div className="d-flex flex-column justify-content-center h-100 pt-5">
             <h4 className="storybook-header">{projects[1].project_name}</h4>
             <h5><Moment format="YYYY/DD/MM">{projects[1].project_creation_date}</Moment></h5>
             <h5 className="storybook-font-light">{projects[1].project_type}</h5>
@@ -123,7 +125,7 @@ class Storybook extends Component {
         </Col>
         <Col col="6" addclass="pl-5 pb-5 h-100">
           <div><GoArrowRight size="3rem" className="page-forward float-right" onClick={() => {this.flipPage.gotoNextPage()}}/></div>
-          <div className="d-flex flex-column justify-content-center h-100">
+          <div className="d-flex flex-column justify-content-center h-100 pt-5">
             <h4 className="storybook-header">{projects[2].project_name}</h4>
             <h5><Moment format="YYYY/DD/MM">{projects[2].project_creation_date}</Moment></h5>
             <h5 className="storybook-font-light">{projects[2].project_type}</h5>
@@ -143,7 +145,7 @@ class Storybook extends Component {
         </Col>
         <Col col="6" addclass="pl-5 pb-5 h-100">
           <div><GoArrowRight size="3rem" className="page-forward float-right" onClick={() => {this.flipPage.gotoNextPage()}}/></div>
-          <div className="d-flex flex-column justify-content-center h-100">
+          <div className="d-flex flex-column justify-content-center h-100 pt-5">
             <h4 className="storybook-header">{projects[3].project_name}</h4>
             <h5><Moment format="YYYY/DD/MM">{projects[3].project_creation_date}</Moment></h5>
             <h5 className="storybook-font-light">{projects[3].project_type}</h5>
@@ -163,7 +165,7 @@ class Storybook extends Component {
         </Col>
         <Col col="6" addclass="pl-5 pb-5 h-100">
           <div><GoArrowRight size="3rem" className="page-forward float-right" onClick={() => {this.flipPage.gotoNextPage()}}/></div>
-          <div className="d-flex flex-column justify-content-center h-100">
+          <div className="d-flex flex-column justify-content-center h-100 pt-5">
             <h4 className="storybook-header">{projects[4].project_name}</h4>
             <h5><Moment format="YYYY/DD/MM">{projects[4].project_creation_date}</Moment></h5>
             <h5 className="storybook-font-light">{projects[4].project_type}</h5>
@@ -183,7 +185,7 @@ class Storybook extends Component {
         </Col>
         <Col col="6" addclass="pl-5 pb-5 h-100">
           <div><GoArrowRight size="3rem" className="page-forward float-right" onClick={() => {this.flipPage.gotoNextPage()}}/></div>
-          <div className="d-flex flex-column justify-content-center h-100">
+          <div className="d-flex flex-column justify-content-center h-100 pt-5">
             <h4 className="storybook-header">{projects[5].project_name}</h4>
             <h5><Moment format="YYYY/DD/MM">{projects[5].project_creation_date}</Moment></h5>
             <h5 className="storybook-font-light">{projects[5].project_type}</h5>
@@ -203,7 +205,7 @@ class Storybook extends Component {
         </Col>
         <Col col="6" addclass="pl-5 pb-5 h-100">
           <div><GoArrowRight size="3rem" className="page-forward float-right" onClick={() => {this.flipPage.gotoNextPage()}}/></div>
-          <div className="d-flex flex-column justify-content-center h-100">
+          <div className="d-flex flex-column justify-content-center h-100 pt-5">
             <h4 className="storybook-header">{projects[6].project_name}</h4>
             <h5><Moment format="YYYY/DD/MM">{projects[6].project_creation_date}</Moment></h5>
             <h5 className="storybook-font-light">{projects[6].project_type}</h5>
@@ -223,7 +225,7 @@ class Storybook extends Component {
         </Col>
         <Col col="6" addclass="pl-5 pb-5 h-100">
           {/* <div><GoArrowRight size="3rem" className="page-forward float-right" onClick={() => {this.flipPage.gotoNextPage()}}/></div> */}
-          <div className="d-flex flex-column justify-content-center h-100">
+          <div className="d-flex flex-column justify-content-center h-100 pt-5">
             <h4 className="storybook-header">{projects[7].project_name}</h4>
             <h5><Moment format="YYYY/DD/MM">{projects[7].project_creation_date}</Moment></h5>
             <h5 className="storybook-font-light">{projects[7].project_type}</h5>

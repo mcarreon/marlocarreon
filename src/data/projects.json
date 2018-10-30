@@ -219,7 +219,7 @@
     "project_preview": "sequelizeburger.png",
     "project_link": "https://github.com/mcarreon/Eat-da-sequelized-burger",
     "project_host": "https://obscure-citadel-61473.herokuapp.com/",
-    "project_name": "Eat Da Sequelized Burger",
+    "project_name": "Sequelized Burger",
     "project_type": "Assignment",
     "project_desc": "The challenge of this assignment was to update the previous burger application to use Sequelize to handle all MySql interactions. It also has an added feature of tracking the user that makes the burger based on session.",
     "project_tags": null,

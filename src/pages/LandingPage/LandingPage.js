@@ -31,7 +31,7 @@ class LandingPage extends Component {
             <Row addclass="p-0 m-0 landing-page-row">
               <div className="landing-background">
                 <Row addclass={"landing-top p-5 m-0"}> 
-                  <Col size="md" col="6" addclass={"pl-5"}>
+                  <Col size="md" col="8" addclass={"pl-5"}>
                     <Container addclass={"landing-header-container"}>
                       <div className="pl-5 pt-3 title-container">
                           <Fade clear><h1 className="name">{name}</h1></Fade>
@@ -39,10 +39,10 @@ class LandingPage extends Component {
                       </div>
                     </Container>
                   </Col>
-                  <Col size="md" col="4" addclass={"offset-md-2"}>
+                  <Col size="md" col="4">
                   <Container addclass="landing-contact-container d-flex justify-content-center align-items-end ml-5">
-                  <Fade clear><div className="pl-4 landing-contact pb-5">
-                      <h2 className="pb-2 ">Contact Me</h2>
+                  <Fade clear><div className="pl-4 landing-contact pb-5 pt-5 pr-5">
+                      <h2 className="pb-2">Contact Me</h2>
                       <div className="pb-2 email"><Mailto className="email" email="marloadriancarreon@gmail.com" headers={{subject:"Hello! How are you?"}}/></div>
                       <div className="pb-2 github"><a href="https://github.com/mcarreon" target="__blank">GitHub</a></div>
                       <div className="pb-2 linkedin"><a href="https://www.linkedin.com/in/carryon" target="__blank">LinkedIn</a></div>
