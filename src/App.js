@@ -38,7 +38,7 @@ class App extends Component {
     const { height, width} = this.state;
     let mainpage = LandingPage;
 
-    if (height < 700 && width < 500) {
+    if (height < 900 && width < 500) {
       mainpage = MobilePage;
     }
 

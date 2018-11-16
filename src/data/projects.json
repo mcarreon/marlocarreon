@@ -246,7 +246,7 @@
   {
     "_id": "5baef20fec8285c6f05633a9",
     "project_preview": "portfoliov3.png",
-    "project_link": "https://github.com/mcarreon/marlocarreon",
+    "project_link": "https://www.marlocarreon.com",
     "project_host": "https://mcarreon.github.io/marlocarreon",
     "project_name": "Portfolio v3.0",
     "project_type": "Personal Project",
@@ -256,6 +256,23 @@
       "password": ""
     },
     "project_tags": null,
+    "project_creation_date": "2018-09-16T01:52:09.000+0000",
+    "show": true
+  },
+  {
+    "_id": "5baef20fec8285c6f05633a9",
+    "project_preview": "blitzreport.jpg",
+    "project_link": "https://proj3ct.herokuapp.com/",
+    "project_host": "https://mcarreon.github.io/marlocarreon",
+    "project_name": "Blitz Report",
+    "project_type": "Group Project",
+    "project_desc": "A Fantasy Football utility webapp that allows users to track QBs against specific opponents. Built using MERN stack, I designed the interface and assisted with authentication.",
+    "project_admin": {
+      "username": "admin",
+      "password": "admin"
+    },
+    "project_contributors": ["Brandon Turner", "Cryus Sepahbodi", "Bruce Chang"],
+    "project_tags": ["React, Mongoose, Express, Node, Bootstrap, Passport"],
     "project_creation_date": "2018-09-16T01:52:09.000+0000",
     "show": true
   }
