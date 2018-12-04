@@ -246,8 +246,8 @@
   {
     "_id": "5baef20fec8285c6f05633a9",
     "project_preview": "portfoliov3.png",
-    "project_link": "https://www.marlocarreon.com",
-    "project_host": "https://mcarreon.github.io/marlocarreon",
+    "project_link": "https://mcarreon.github.io/marlocarreon",
+    "project_host": "https://www.marlocarreon.com",
     "project_name": "Portfolio v3.0",
     "project_type": "Personal Project",
     "project_desc": "This website! I created it from scratch using React and Bootstrap for styling. This version does not have a database, and instead uses a JSON file for projects. I used a few cool packages; Pose and React-Flip-Book. I'm working on its responsiveness, so stay tuned for updates!",
@@ -262,8 +262,8 @@
   {
     "_id": "5baef20fec8285c6f05633a9",
     "project_preview": "blitzreport.jpg",
-    "project_link": "https://proj3ct.herokuapp.com/",
-    "project_host": "https://mcarreon.github.io/marlocarreon",
+    "project_link": "https://mcarreon.github.io/marlocarreon",
+    "project_host": "https://blitzreport.herokuapp.com/",
     "project_name": "Blitz Report",
     "project_type": "Group Project",
     "project_desc": "A Fantasy Football utility webapp that allows users to track QBs against specific opponents. Built using MERN stack, I designed the interface and assisted with authentication.",
