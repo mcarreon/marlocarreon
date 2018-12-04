@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.3767d09e.chunk.css",
-  "main.js": "/static/js/main.d1b9ad0f.chunk.js",
-  "main.js.map": "/static/js/main.d1b9ad0f.chunk.js.map",
+  "main.js": "/static/js/main.a3b05280.chunk.js",
+  "main.js.map": "/static/js/main.a3b05280.chunk.js.map",
   "static/css/1.133e832f.chunk.css": "/static/css/1.133e832f.chunk.css",
   "static/js/1.17209a10.chunk.js": "/static/js/1.17209a10.chunk.js",
   "static/js/1.17209a10.chunk.js.map": "/static/js/1.17209a10.chunk.js.map",
@@ -9,7 +9,7 @@
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/vancool.png": "/static/media/vancool.1d5d6e2f.png",
   "static/media/MobilePage.css": "/static/media/background.37c62bb5.png",
-  "static/media/LandingPage.css": "/static/media/aboutsection.ca51b322.png",
+  "static/media/LandingPage.css": "/static/media/backtree.c9627689.png",
   "static/media/profpic.jpg": "/static/media/profpic.99443ced.jpg",
   "static/media/beerdetectives.png": "/static/media/beerdetectives.761ea91b.png",
   "static/media/blitzreport.jpg": "/static/media/blitzreport.7342148e.jpg",
@@ -24,6 +24,6 @@
   "static/css/main.3767d09e.chunk.css.map": "/static/css/main.3767d09e.chunk.css.map",
   "static/css/1.133e832f.chunk.css.map": "/static/css/1.133e832f.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.3e1ad650623044abe780ffb65bb974b1.js": "/precache-manifest.3e1ad650623044abe780ffb65bb974b1.js",
+  "precache-manifest.8f73c66977e89b57370e4e0eaee77f3d.js": "/precache-manifest.8f73c66977e89b57370e4e0eaee77f3d.js",
   "service-worker.js": "/service-worker.js"
 }

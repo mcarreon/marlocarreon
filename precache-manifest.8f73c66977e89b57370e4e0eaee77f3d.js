@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/blitzreport.7342148e.jpg"
   },
   {
-    "revision": "d1b9ad0f86e3a567aa21",
+    "revision": "a3b0528065321167ff46",
     "url": "/static/css/main.3767d09e.chunk.css"
   },
   {
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/static/media/background.37c62bb5.png"
   },
   {
-    "revision": "ca51b322ca9a8aacdd0da1b8f7e77eb4",
-    "url": "/static/media/aboutsection.ca51b322.png"
-  },
-  {
     "revision": "c96276894497d2f01fbb1069049c14b6",
     "url": "/static/media/backtree.c9627689.png"
+  },
+  {
+    "revision": "ca51b322ca9a8aacdd0da1b8f7e77eb4",
+    "url": "/static/media/aboutsection.ca51b322.png"
   },
   {
     "revision": "99443ced0e04983b6768cd8c445183e5",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/static/media/beerdetectives.761ea91b.png"
   },
   {
-    "revision": "d1b9ad0f86e3a567aa21",
-    "url": "/static/js/main.d1b9ad0f.chunk.js"
+    "revision": "a3b0528065321167ff46",
+    "url": "/static/js/main.a3b05280.chunk.js"
   },
   {
     "revision": "fb73bfa7b33257f8bbfae4e33bfb6bcd",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/static/css/1.133e832f.chunk.css"
   },
   {
-    "revision": "3a61a7b8bca567ac4955f7afbacf0b67",
+    "revision": "7bac08f6bca38fe4f303141c7847c0a0",
     "url": "/index.html"
   }
 ];
