@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/blitzreport.7342148e.jpg"
   },
   {
-    "revision": "a3b0528065321167ff46",
-    "url": "/static/css/main.3767d09e.chunk.css"
+    "revision": "8e7bebeff75658374c3c",
+    "url": "/static/css/main.b65d357b.chunk.css"
   },
   {
     "revision": "1d5d6e2fb39a07a140f644725833a0bc",
@@ -24,12 +24,16 @@ self.__precacheManifest = [
     "url": "/static/media/background.37c62bb5.png"
   },
   {
+    "revision": "ca51b322ca9a8aacdd0da1b8f7e77eb4",
+    "url": "/static/media/aboutsection.ca51b322.png"
+  },
+  {
     "revision": "c96276894497d2f01fbb1069049c14b6",
     "url": "/static/media/backtree.c9627689.png"
   },
   {
-    "revision": "ca51b322ca9a8aacdd0da1b8f7e77eb4",
-    "url": "/static/media/aboutsection.ca51b322.png"
+    "revision": "3917a84bde2f7c91d097e134b5222b8c",
+    "url": "/static/media/techbody.3917a84b.jpg"
   },
   {
     "revision": "99443ced0e04983b6768cd8c445183e5",
@@ -40,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/beerdetectives.761ea91b.png"
   },
   {
-    "revision": "a3b0528065321167ff46",
-    "url": "/static/js/main.a3b05280.chunk.js"
+    "revision": "8e7bebeff75658374c3c",
+    "url": "/static/js/main.8e7bebef.chunk.js"
   },
   {
     "revision": "fb73bfa7b33257f8bbfae4e33bfb6bcd",
@@ -80,7 +84,7 @@ self.__precacheManifest = [
     "url": "/static/css/1.133e832f.chunk.css"
   },
   {
-    "revision": "7bac08f6bca38fe4f303141c7847c0a0",
+    "revision": "6a9d884131cede89d3a1967844948e4d",
     "url": "/index.html"
   }
 ];
