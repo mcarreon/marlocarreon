@@ -43,11 +43,11 @@ class LandingPage extends Component {
                   {/* TODO: put MERN box here. Black border, transparant, script. On hover, expand and expand letter to full name. padding transform on x maybe */}
                       <Container addclass="landing-contact-container d-flex justify-content-center align-items-end ml-5">
                         <Fade clear><div className="pl-4 landing-contact pb-5 pt-5 pr-5">
-                          <h2 className="pb-2">Contact Me</h2>
-                          <div className="pb-2 resume"><a href="https://docs.google.com/document/d/170tb3GwvViu-T1Sx0Vxu9bx09XAHld3NvMSXK1EeNYg/edit?usp=sharing" target="__blank">Resume</a></div>
-                          <div className="pb-2 email"><Mailto className="email" email="marloadriancarreon@gmail.com" headers={{subject:"Hello! How are you?"}}/></div>
-                          <div className="pb-2 github"><a href="https://github.com/mcarreon" target="__blank">GitHub</a></div>
-                          <div className="pb-2 linkedin"><a href="https://www.linkedin.com/in/carryon" target="__blank">LinkedIn</a></div>
+                          <h2 className="">Contact Me</h2>
+                          <div className="pb-1 resume"><a href="https://docs.google.com/document/d/170tb3GwvViu-T1Sx0Vxu9bx09XAHld3NvMSXK1EeNYg/edit?usp=sharing" target="__blank">Resume</a></div>
+                          <div className="pb-1 email"><Mailto className="email" email="marloadriancarreon@gmail.com" headers={{subject:"Hello! How are you?"}}/></div>
+                          <div className="pb-1 github"><a href="https://github.com/mcarreon" target="__blank">GitHub</a></div>
+                          <div className="pb-1 linkedin"><a href="https://www.linkedin.com/in/carryon" target="__blank">LinkedIn</a></div>
                           </div>
                         </Fade>
                     </Container>

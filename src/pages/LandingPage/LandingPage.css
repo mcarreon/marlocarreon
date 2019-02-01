@@ -122,7 +122,10 @@ a:hover {
 @media only screen and (max-width: 1240px) {
   .landing-contact {
     font-size: 1.0em;
+
   }
+
+  
 
   .email, .github, .linkedin, .resume {
     font-size: .9em;

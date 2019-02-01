@@ -8,7 +8,7 @@
     "project_desc": "My first attempt at a personal portfolio, now the repo holds some archived projects, as well as some assets I use. I based the design around the font, Marvin Visions, and used some basic event scripting. This may become private!",
     "project_tags": null,
     "project_creation_date": "2018-05-12T00:00:00.000+0000",
-    "show": true,
+    "show": false,
     "createdAt": "2018-09-18T01:52:08.000+0000",
     "updatedAt": "2018-09-18T01:52:08.000+0000"
   },
@@ -20,9 +20,9 @@
     "project_name": "Portfolio v2.0",
     "project_type": "Personal-Project",
     "project_desc": "Second pass at making a portfolio, this project is this website! To make it I used Express for hosting, Sequelize for db managment, and Handlebars to serve up the pages. The design was inspired by books/newspapers, I wanted to make it less busy.",
-    "project_tags": null,
+    "project_tags": false,
     "project_creation_date": "2018-09-15T00:00:00.000+0000",
-    "show": true,
+    "show": false,
     "createdAt": "2018-09-18T01:52:08.000+0000",
     "updatedAt": "2018-09-18T01:52:08.000+0000"
   },
@@ -73,10 +73,11 @@
     "project_preview": "kanye.png",
     "project_link": "https://github.com/mcarreon/Word-Guess-Game",
     "project_host": "https://mcarreon.github.io/Word-Guess-Game",
-    "project_name": "Kanye In Danger",
+    "project_name": "Kanye Needs A Friend",
     "project_type": "Assignment",
-    "project_desc": "The challenge of this assignment was to make a hangman game using jQuery. I based my js code around an object controller to handle the game logic.",
+    "project_desc": "A web minigame where Mr. Ye needs to meet a buddy to hang with.",
     "project_tags": null,
+    "project_technology": "The logic was coded with jQuery and styling was done with CSS Grid.",
     "project_creation_date": "2018-06-07T00:00:00.000+0000",
     "show": true,
     "createdAt": "2018-09-18T01:52:08.000+0000",
@@ -200,7 +201,7 @@
     "project_desc": "The challenge of the assignment was to create an application mainly using Node and Express Servers. It uses node packages like Express, Body-Parser, and Path. FriendFinder leads the user to their perfect match using a quick and fully comprehensive survey.",
     "project_tags": null,
     "project_creation_date": "2018-08-26T00:00:00.000+0000",
-    "show": true
+    "show": false
   },
   {
     "_id": "5baee961775becb088e5350a",
@@ -212,7 +213,7 @@
     "project_desc": "The challenge for this application was to use Express, Handlebars, and MySql to create an interactive database. Jaws_DB handles the server database. The application achieves this by allowing the user to create and eat burgers!",
     "project_tags": null,
     "project_creation_date": "2018-09-07T00:00:00.000+0000",
-    "show": true
+    "show": false
   },
   {
     "_id": "5baee961775becb088e5350b",
@@ -224,7 +225,7 @@
     "project_desc": "The challenge of this assignment was to update the previous burger application to use Sequelize to handle all MySql interactions. It also has an added feature of tracking the user that makes the burger based on session.",
     "project_tags": null,
     "project_creation_date": "2018-09-13T00:00:00.000+0000",
-    "show": true
+    "show": false
   },
   {
     "_id": "5baef20fec8285c6f05633a9",
@@ -233,7 +234,8 @@
     "project_host": "https://vancoolproject.herokuapp.com",
     "project_name": "VanCool",
     "project_type": "Group Project",
-    "project_desc": "Web app for easy carpool organization; create new carpools and export the carpool stats in CSV format! I handled backend interaction and client-side scripting. I interfaced with our MySql database with Sequelize to create the functionality of the website, and used Express to serve pages.",
+    "project_desc": "A web app to assist companies in creating and managing carpools.",
+    "project_technology": "Van Cool was built using Handlebars to serve the front end and Express to handle routing. The back end uses Sequelize with our MySQL database and Passport to handle user authentication.",
     "project_admin": {
       "username": "alexball@gmail.com",
       "password": "alexisballing"
@@ -246,7 +248,7 @@
   {
     "_id": "5baef20fec8285c6f05633a9",
     "project_preview": "portfoliov3.png",
-    "project_link": "https://mcarreon.github.io/marlocarreon",
+    "project_link": "https://github.com/mcarreon/marlocarreon",
     "project_host": "https://www.marlocarreon.com",
     "project_name": "Portfolio v3.0",
     "project_type": "Personal Project",
@@ -257,16 +259,17 @@
     },
     "project_tags": null,
     "project_creation_date": "2018-09-16T01:52:09.000+0000",
-    "show": true
+    "show": false
   },
   {
     "_id": "5baef20fec8285c6f05633a9",
     "project_preview": "blitzreport.jpg",
-    "project_link": "https://mcarreon.github.io/marlocarreon",
+    "project_link": "https://github.com/mcarreon/blitz-report-mcarreon",
     "project_host": "https://blitzreport.herokuapp.com/",
     "project_name": "Blitz Report",
     "project_type": "Group Project",
-    "project_desc": "A Fantasy Football utility webapp that allows users to track QBs against specific opponents. Built using MERN stack, I designed the interface and assisted with authentication.",
+    "project_desc": "A Fantasy Football utility webapp that allows users to track QB success rates against specific opponents. ",
+    "project_technology": "Blitz Report is built with React, with a Node and Mongoose back end. Routing was handled with Express, user authentication is handled with Passport/Bcrypt, and Styling was done with the Bootstrap CSS Framework. ",
     "project_admin": {
       "username": "admin",
       "password": "admin"

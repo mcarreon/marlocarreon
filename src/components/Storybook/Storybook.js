@@ -100,6 +100,7 @@ class Storybook extends Component {
           <div><button className="page-contents float-right" onClick={() => {this.flipPage.gotoPage(1)}}><GoBook size="3rem" /></button></div>
         </Col>
       </article>
+      {/*Page 1*/ }
       <article className="p-5 d-flex h-100 flex-row storybook-intro-page">
         <Col col="6" addclass="pr-5 border-right h-100">
           <div><button className="page-back float-left instructions-left" onClick={() => {this.flipPage.gotoPreviousPage()}}><GoArrowLeft size="3rem" /></button></div>
@@ -110,16 +111,16 @@ class Storybook extends Component {
         <Col col="6" addclass="pl-5 pb-5 h-100">
           <div><button className="page-forward float-right" onClick={() => { this.flipPage.gotoNextPage() }}><GoArrowRight size="3rem" /></button></div>
           <div className="d-flex flex-column justify-content-center h-100 pt-5">
-            <h4 className="storybook-header">{projects[0].project_name}</h4>
+            <h4 className="storybook-header"><a href={projects[0].project_host}>{projects[0].project_name}</a></h4>
             <h5><Moment format="YYYY/DD/MM">{projects[0].project_creation_date}</Moment></h5>
-            <h5 className="storybook-font-light">{projects[0].project_type}</h5>
-            <div className="storybook-project-links pb-4"><a href={projects[0].project_link}>Repository</a> | <a href={projects[0].project_host}>Visit the site</a></div>
+            <div className="storybook-project-links pb-4"><a href={projects[0].project_link} target="__blank">Repository</a> | <a href={projects[0].project_host} target="__blank">Visit the site</a></div>
             <p className="storybook-project-desc pb-4">{projects[0].project_desc}</p>
-            <div>{projects[0].project_tags !== null ? `Tags: ${projects[0].project_tags}` : ''}</div>
+            <p className="storybook-project-desc">{projects[0].project_technology !== null ? `${projects[0].project_technology}` : ''}</p>
           </div>
           <div><button className="page-contents float-right" onClick={() => {this.flipPage.gotoPage(1)}}><GoBook size="3rem" /></button></div>
         </Col>
       </article>
+      {/*Page 2*/ }
       <article className="p-5 d-flex h-100 flex-row storybook-intro-page">
         <Col col="6" addclass="pr-5 border-right h-100">
           <div><button className="page-back float-left instructions-left" onClick={() => {this.flipPage.gotoPreviousPage()}}><GoArrowLeft size="3rem" /></button></div>
@@ -132,14 +133,14 @@ class Storybook extends Component {
           <div className="d-flex flex-column justify-content-center h-100 pt-5">
             <h4 className="storybook-header">{projects[1].project_name}</h4>
             <h5><Moment format="YYYY/DD/MM">{projects[1].project_creation_date}</Moment></h5>
-            <h5 className="storybook-font-light">{projects[1].project_type}</h5>
-            <div className="storybook-project-links pb-4"><a href={projects[1].project_link}>Repository</a> | <a href={projects[1].project_host}>Visit the site</a></div>
+            <div className="storybook-project-links pb-4"><a href={projects[1].project_link} target="__blank">Repository</a> | <a href={projects[1].project_host} target="__blank">Visit the site</a></div>
             <p className="storybook-project-desc pb-4">{projects[1].project_desc}</p>
-            <div>{projects[1].project_tags !== null ? `Tags: ${projects[1].project_tags}` : ''}</div>
+            <p className="storybook-project-desc">{projects[0].project_technology !== null ? `${projects[0].project_technology}` : ''}</p>
           </div>
           <div><button className="page-contents float-right" onClick={() => {this.flipPage.gotoPage(1)}}><GoBook size="3rem" /></button></div>
         </Col>
       </article>
+      {/*Page 3*/ }
       <article className="p-5 d-flex h-100 flex-row storybook-intro-page">
         <Col col="6" addclass="pr-5 border-right h-100">
           <div><button className="page-back float-left instructions-left" onClick={() => {this.flipPage.gotoPreviousPage()}}><GoArrowLeft size="3rem" /></button></div>
@@ -148,134 +149,13 @@ class Storybook extends Component {
           </div>
         </Col>
         <Col col="6" addclass="pl-5 pb-5 h-100">
-          <div><button className="page-forward float-right" onClick={() => { this.flipPage.gotoNextPage() }}><GoArrowRight size="3rem" /></button></div>
+          {/* <div><button className="page-forward float-right" onClick={() => { this.flipPage.gotoNextPage() }}><GoArrowRight size="3rem" /></button></div> */}
           <div className="d-flex flex-column justify-content-center h-100 pt-5">
             <h4 className="storybook-header">{projects[2].project_name}</h4>
             <h5><Moment format="YYYY/DD/MM">{projects[2].project_creation_date}</Moment></h5>
-            <h5 className="storybook-font-light">{projects[2].project_type}</h5>
-            <div className="storybook-project-links pb-4"><a href={projects[2].project_link}>Repository</a> | <a href={projects[2].project_host}>Visit the site</a></div>
+            <div className="storybook-project-links pb-4"><a href={projects[2].project_link} target="__blank">Repository</a> | <a href={projects[2].project_host} target="__blank">Visit the site</a></div>
             <p className="storybook-project-desc pb-4">{projects[2].project_desc}</p>
-            <div>{projects[2].project_tags !== null ? `Tags: ${projects[2].project_tags}` : ''}</div>
-          </div>
-          <div><button className="page-contents float-right" onClick={() => {this.flipPage.gotoPage(1)}}><GoBook size="3rem" /></button></div>
-        </Col>
-      </article>
-      <article className="p-5 d-flex h-100 flex-row storybook-intro-page">
-        <Col col="6" addclass="pr-5 border-right h-100">
-          <div><button className="page-back float-left instructions-left" onClick={() => {this.flipPage.gotoPreviousPage()}}><GoArrowLeft size="3rem" /></button></div>
-          <div className="d-flex justify-content-center align-items-center h-100">
-            <img src={require('../../data/projects/' + projects[3].project_preview)} alt="" className='proj-pic p-3'/>
-          </div>
-        </Col>
-        <Col col="6" addclass="pl-5 pb-5 h-100">
-          <div><button className="page-forward float-right" onClick={() => { this.flipPage.gotoNextPage() }}><GoArrowRight size="3rem" /></button></div>
-          <div className="d-flex flex-column justify-content-center h-100 pt-5">
-            <h4 className="storybook-header">{projects[3].project_name}</h4>
-            <h5><Moment format="YYYY/DD/MM">{projects[3].project_creation_date}</Moment></h5>
-            <h5 className="storybook-font-light">{projects[3].project_type}</h5>
-            <div className="storybook-project-links pb-4"><a href={projects[3].project_link}>Repository</a> | <a href={projects[3].project_host}>Visit the site</a></div>
-            <p className="storybook-project-desc pb-4">{projects[3].project_desc}</p>
-            <div>{projects[3].project_tags !== null ? `Tags: ${projects[3].project_tags}` : ''}</div>
-          </div>
-          <div><button className="page-contents float-right" onClick={() => {this.flipPage.gotoPage(1)}}><GoBook size="3rem" /></button></div>
-        </Col>
-      </article>
-      <article className="p-5 d-flex h-100 flex-row storybook-intro-page">
-        <Col col="6" addclass="pr-5 border-right h-100">
-          <div><button className="page-back float-left instructions-left" onClick={() => {this.flipPage.gotoPreviousPage()}}><GoArrowLeft size="3rem" /></button></div>
-          <div className="d-flex justify-content-center align-items-center h-100">
-            <img src={require('../../data/projects/' + projects[4].project_preview)} alt="" className='proj-pic p-3'/>
-          </div>
-        </Col>
-        <Col col="6" addclass="pl-5 pb-5 h-100">
-          <div><button className="page-forward float-right" onClick={() => { this.flipPage.gotoNextPage() }}><GoArrowRight size="3rem" /></button></div>
-          <div className="d-flex flex-column justify-content-center h-100 pt-5">
-            <h4 className="storybook-header">{projects[4].project_name}</h4>
-            <h5><Moment format="YYYY/DD/MM">{projects[4].project_creation_date}</Moment></h5>
-            <h5 className="storybook-font-light">{projects[4].project_type}</h5>
-            <div className="storybook-project-links pb-4"><a href={projects[4].project_link}>Repository</a> | <a href={projects[4].project_host}>Visit the site</a></div>
-            <p className="storybook-project-desc pb-4">{projects[4].project_desc}</p>
-            <div>{projects[4].project_tags !== null ? `Tags: ${projects[4].project_tags}` : ''}</div>
-          </div>
-          <div><button className="page-contents float-right" onClick={() => {this.flipPage.gotoPage(1)}}><GoBook size="3rem" /></button></div>
-        </Col>
-      </article>
-      <article className="p-5 d-flex h-100 flex-row storybook-intro-page">
-        <Col col="6" addclass="pr-5 border-right h-100">
-          <div><button className="page-back float-left instructions-left" onClick={() => {this.flipPage.gotoPreviousPage()}}><GoArrowLeft size="3rem" /></button></div>
-          <div className="d-flex justify-content-center align-items-center h-100">
-            <img src={require('../../data/projects/' + projects[5].project_preview)} alt="" className='proj-pic p-3'/>
-          </div>
-        </Col>
-        <Col col="6" addclass="pl-5 pb-5 h-100">
-          <div><button className="page-forward float-right" onClick={() => { this.flipPage.gotoNextPage() }}><GoArrowRight size="3rem" /></button></div>
-          <div className="d-flex flex-column justify-content-center h-100 pt-5">
-            <h4 className="storybook-header">{projects[5].project_name}</h4>
-            <h5><Moment format="YYYY/DD/MM">{projects[5].project_creation_date}</Moment></h5>
-            <h5 className="storybook-font-light">{projects[5].project_type}</h5>
-            <div className="storybook-project-links pb-4"><a href={projects[5].project_link}>Repository</a> | <a href={projects[5].project_host}>Visit the site</a></div>
-            <p className="storybook-project-desc pb-4">{projects[5].project_desc}</p>
-            <div>{projects[5].project_tags !== null ? `Tags: ${projects[5].project_tags}` : ''}</div>
-          </div>
-          <div><button className="page-contents float-right" onClick={() => {this.flipPage.gotoPage(1)}}><GoBook size="3rem" /></button></div>
-        </Col>
-      </article>
-      <article className="p-5 d-flex h-100 flex-row storybook-intro-page">
-        <Col col="6" addclass="pr-5 border-right h-100">
-          <div><button className="page-back float-left instructions-left" onClick={() => {this.flipPage.gotoPreviousPage()}}><GoArrowLeft size="3rem" /></button></div>
-          <div className="d-flex justify-content-center align-items-center h-100">
-            <img src={require('../../data/projects/' + projects[6].project_preview)} alt="" className='proj-pic p-3'/>
-          </div>
-        </Col>
-        <Col col="6" addclass="pl-5 pb-5 h-100">
-          <div><button className="page-forward float-right" onClick={() => { this.flipPage.gotoNextPage() }}><GoArrowRight size="3rem" /></button></div>
-          <div className="d-flex flex-column justify-content-center h-100 pt-5">
-            <h4 className="storybook-header">{projects[6].project_name}</h4>
-            <h5><Moment format="YYYY/DD/MM">{projects[6].project_creation_date}</Moment></h5>
-            <h5 className="storybook-font-light">{projects[6].project_type}</h5>
-            <div className="storybook-project-links pb-4"><a href={projects[6].project_link}>Repository</a> | <a href={projects[6].project_host}>Visit the site</a></div>
-            <p className="storybook-project-desc pb-4">{projects[6].project_desc}</p>
-            <div>{projects[6].project_tags !== null ? `Tags: ${projects[6].project_tags}` : ''}</div>
-          </div>
-          <div><button className="page-contents float-right" onClick={() => {this.flipPage.gotoPage(1)}}><GoBook size="3rem" /></button></div>
-        </Col>
-      </article>
-      <article className="p-5 d-flex h-100 flex-row storybook-intro-page">
-        <Col col="6" addclass="pr-5 border-right h-100">
-          <div><button className="page-back float-left instructions-left" onClick={() => {this.flipPage.gotoPreviousPage()}}><GoArrowLeft size="3rem" /></button></div>
-          <div className="d-flex justify-content-center align-items-center h-100">
-            <img src={require('../../data/projects/' + projects[7].project_preview)} alt="" className='proj-pic p-3'/>
-          </div>
-        </Col>
-        <Col col="6" addclass="pl-5 pb-5 h-100">
-          <div><button className="page-forward float-right" onClick={() => { this.flipPage.gotoNextPage() }}><GoArrowRight size="3rem" /></button></div>
-          <div className="d-flex flex-column justify-content-center h-100 pt-5">
-            <h4 className="storybook-header">{projects[7].project_name}</h4>
-            <h5><Moment format="YYYY/DD/MM">{projects[7].project_creation_date}</Moment></h5>
-            <h5 className="storybook-font-light">{projects[7].project_type}</h5>
-            <div className="storybook-project-links pb-4"><a href={projects[7].project_link}>Repository</a> | <a href={projects[7].project_host}>Visit the site</a></div>
-            <p className="storybook-project-desc pb-4">{projects[7].project_desc}</p>
-            <div>{projects[7].project_tags !== null ? `Tags: ${projects[7].project_tags}` : ''}</div>
-          </div>
-          <div><button className="page-contents float-right" onClick={() => {this.flipPage.gotoPage(1)}}><GoBook size="3rem" /></button></div>
-        </Col>
-      </article>
-      <article className="p-5 d-flex h-100 flex-row storybook-intro-page">
-        <Col col="6" addclass="pr-5 border-right h-100">
-          <div><button className="page-back float-left instructions-left" onClick={() => {this.flipPage.gotoPreviousPage()}}><GoArrowLeft size="3rem" /></button></div>
-          <div className="d-flex justify-content-center align-items-center h-100">
-            <img src={require('../../data/projects/' + projects[8].project_preview)} alt="" className='proj-pic p-3'/>
-          </div>
-        </Col>
-        <Col col="6" addclass="pl-5 pb-5 h-100">
-          {/* <div><GoArrowRight size="3rem" className="page-forward float-right" onClick={() => {this.flipPage.gotoNextPage()}}/></div> */}
-          <div className="d-flex flex-column justify-content-center h-100 pt-5">
-            <h4 className="storybook-header">{projects[8].project_name}</h4>
-            <h5><Moment format="YYYY/DD/MM">{projects[8].project_creation_date}</Moment></h5>
-            <h5 className="storybook-font-light">{projects[8].project_type}</h5>
-            <div className="storybook-project-links pb-4"><a href={projects[7].project_link}>Repository</a> | <a href={projects[8].project_host}>Visit the site</a></div>
-            <p className="storybook-project-desc pb-4">{projects[8].project_desc}</p>
-            <div>{projects[8].project_tags !== null ? `Tags: ${projects[8].project_tags}` : ''}</div>
+            <p className="storybook-project-desc">{projects[0].project_technology !== null ? `${projects[0].project_technology}` : ''}</p>
           </div>
           <div><button className="page-contents float-right" onClick={() => {this.flipPage.gotoPage(1)}}><GoBook size="3rem" /></button></div>
         </Col>
