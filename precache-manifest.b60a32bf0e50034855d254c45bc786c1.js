@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/static/media/blitzreport.7342148e.jpg"
   },
   {
-    "revision": "8e7bebeff75658374c3c",
-    "url": "/static/css/main.b65d357b.chunk.css"
+    "revision": "0765624637fd8af5b649",
+    "url": "/static/css/main.112fc189.chunk.css"
   },
   {
     "revision": "1d5d6e2fb39a07a140f644725833a0bc",
     "url": "/static/media/vancool.1d5d6e2f.png"
   },
   {
-    "revision": "17209a10471c5c2c2223",
-    "url": "/static/js/1.17209a10.chunk.js"
+    "revision": "5c964a17455fd80763cd",
+    "url": "/static/js/1.5c964a17.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/beerdetectives.761ea91b.png"
   },
   {
-    "revision": "8e7bebeff75658374c3c",
-    "url": "/static/js/main.8e7bebef.chunk.js"
+    "revision": "0765624637fd8af5b649",
+    "url": "/static/js/main.07656246.chunk.js"
   },
   {
     "revision": "fb73bfa7b33257f8bbfae4e33bfb6bcd",
@@ -54,6 +54,10 @@ self.__precacheManifest = [
   {
     "revision": "6ace41a9300cfe67acec6172cdafeab1",
     "url": "/static/media/burger.6ace41a9.png"
+  },
+  {
+    "revision": "8c6b14f5e4729b28558e2284e9a6d497",
+    "url": "/static/media/coffeecollection.8c6b14f5.jpg"
   },
   {
     "revision": "bc9f6b3ac1b01c931b03145b9846f665",
@@ -80,11 +84,11 @@ self.__precacheManifest = [
     "url": "/static/media/sequelizeburger.967912e9.png"
   },
   {
-    "revision": "17209a10471c5c2c2223",
+    "revision": "5c964a17455fd80763cd",
     "url": "/static/css/1.133e832f.chunk.css"
   },
   {
-    "revision": "6a9d884131cede89d3a1967844948e4d",
+    "revision": "b69abb460777ef90003154a59b503189",
     "url": "/index.html"
   }
 ];
